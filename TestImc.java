@@ -20,7 +20,7 @@ public class TesImc extends TestCase {
     public void testimc(){
         float passapeso = 25;
         float passaaltura = 5;
-        float retornoEsperado = 1;
+        float retornoEsperado = 1.0;
         float retornoFeito = imc.imc(passapeso, passaaltura);
         assertEquals (retornoEsperado, retornoFeito, 0);
     }
